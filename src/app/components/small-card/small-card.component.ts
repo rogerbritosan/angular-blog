@@ -10,4 +10,6 @@ export class SmallCardComponent {
   photoCover: string = "https://i.ytimg.com/vi/I3DWrlksuys/maxresdefault.jpg";
   @Input()
   cardTitle: string = "Saiu a nova versão do Angular";
+  @Input()
+  Id:string="0"
 }
